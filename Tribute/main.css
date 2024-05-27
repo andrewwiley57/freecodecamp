@@ -1,0 +1,87 @@
+*
+{
+    padding: 0;
+    margin:0;
+}
+
+/* Body */
+
+body
+{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+
+/* Body END */
+/******************************************************************************/
+/* Header */
+
+header
+{
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(163, 163, 163);
+}
+
+header > h1
+{
+    text-transform: uppercase;
+}
+
+/* Header END */
+/******************************************************************************/
+/* HERO - FIGURE - IMAGE */
+
+figcaption
+{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+
+figure > img
+{
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+h2
+{
+    margin: 20px auto;
+    text-align: center;
+}
+
+main
+{
+    margin:25px auto;
+    max-width: 700px;
+    
+}
+
+.dates
+{
+    margin-bottom: 50px;
+}
+
+ul > li
+{
+    padding: 10px 0;
+}
+
+blockquote
+{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+footer
+{
+    padding: 25px 0 40px;
+    text-align: center;
+}
